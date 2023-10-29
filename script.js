@@ -37,7 +37,7 @@ function search() {
                 }
                 result.innerHTML = item;
             }).catch((error)=>{
-                result.innerHTML = "Enter another valid or another Pincode";
+                result.innerHTML = "Enter valid pincode, data not found";
 
             })
 
